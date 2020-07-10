@@ -1,6 +1,7 @@
 title: SkaterXL Modding Documentation
 name: SkaterXL Modding Documentation
 theme: jekyll-theme-slate
+repository: Hofled/skaterxl-modding-documentation
 defaults:
 - scope:
     path: ""
