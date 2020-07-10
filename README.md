@@ -1,5 +1,3 @@
-![Dev build test](https://github.com/Hofled/skaterxl-modding-documentation/workflows/Dev%20build%20test/badge.svg)
-
 # 🛠️🛹 SkaterXL Modding Documentation 
 
 __DISCLAIMER__: This is a community driven documentation and __not__ official documentation of the game's code.
