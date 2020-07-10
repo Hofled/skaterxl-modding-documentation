@@ -1,7 +1,7 @@
-# This is a basic workflow to help you get started with Actions
+# Builds the dev branch without deploying the website
 # Based on the jekyll-action-ts 
 
-name: Test build dev branch (without deploying)
+name: Dev build test
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
