@@ -1,0 +1,15 @@
+{%- include top.html -%}
+
+<body>
+    <nav>
+        <a href="{{ '/' | relative_url }}">Home</a>
+    </nav>
+
+    <div>
+        {{- content -}}
+    </div>
+
+    {%- include footer.html -%}
+</body>
+
+</html>
