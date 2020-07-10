@@ -12,6 +12,10 @@
         <h2 id="project_tagline">{{ site.description | default: site.github.project_tagline }}</h2>
         {% endif %}
 
+        {% else %}
+        <h1>{{- page.title -}}</h1>
+        {% endif %}
+
         <!-- Configured from the _config.yml file to allow downloading project as zip/tar. -->
         {% if site.show_downloads %}
         <section id="downloads">

@@ -5,4 +5,4 @@ defaults:
 - scope:
     path: ""
   values:
-    default_title_head: "false"
+    default_title_head: false
