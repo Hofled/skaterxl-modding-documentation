@@ -1,8 +1,3 @@
 name: SkaterXL Modding Documentation
 theme: jekyll-theme-slate
 repository: https://github.com/Hofled/skaterxl-modding-documentation
-defaults:
-- scope:
-    path: _guides
-  values:
-    layout: guides
