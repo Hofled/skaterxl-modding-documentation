@@ -27,6 +27,9 @@ jobs:
       with:
         ruby-version: 2.7
       
+    - name: 📦 Update Ruby bundle
+      run: bundle update
+
     - name: 🔨 install dependencies & build site
       uses: limjh16/jekyll-action-ts@v2
       with:
