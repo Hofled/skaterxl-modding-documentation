@@ -17,9 +17,8 @@
 }
 
 .discord-invite-link {
-    background: url("../assets/img/discord-svg-vector-13-transparent.png");
+    background: url(../assets/img/discord-svg-vector-13-transparent.png) no-repeat;
     height: 3em;
     width: 3em;
     background-size: contain;
-    background-repeat: no-repeat;
 }
