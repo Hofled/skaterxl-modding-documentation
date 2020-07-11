@@ -7,7 +7,3 @@ defaults:
     path: ""
   values:
     default_title_head: "false"
-- scope:
-    path: "assets/img"
-  value:
-    image: true
