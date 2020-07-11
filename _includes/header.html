@@ -1,9 +1,13 @@
 <!-- HEADER -->
 <div id="header_wrap" class="outer">
     <header class="inner">
-        {% if site.github.is_project_page %}
-        <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
-        {% endif %}
+        <div class="header-top-links">
+            <a href="https://discord.gg/H9ceDmt" class="discord-invite-link"></a>            
+            {% if site.github.is_project_page %}
+            <a class="github-top-link" style="position: static;" id="forkme_banner"
+                href="{{ site.github.repository_url }}">View on GitHub</a>
+            {% endif %}
+        </div>
 
         {%- include primary_nav.html -%}
 

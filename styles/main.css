@@ -1,3 +1,25 @@
 .header_page_title {
     color: #fff;
 }
+
+.header-top-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.header-top-links * {
+    margin-left: 5px;
+}
+
+.github-top-link {
+    border-radius: 2px;
+}
+
+.discord-invite-link {
+    background: url("/assets/images/discord-svg-vector-13-transparent.png");
+    height: 3em;
+    width: 3em;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
