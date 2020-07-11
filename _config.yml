@@ -8,6 +8,6 @@ defaults:
   values:
     default_title_head: "false"
 - scope:
-    path: "assets/images"
+    path: "assets/img"
   value:
     image: true
