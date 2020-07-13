@@ -8,8 +8,12 @@ layout: default
 <p>Creation date: {{page.date | date: "%Y-%m-%d" }}</p>
 {% endif %}
 
-{% if page.creator %}
-<p>Created by: @{{page.creator}}</p>
+{% assign creator_name = page.creator_name %}
+{% assign creator_link = page.creator_link %}
+{% if creator_name and creator_link == nil %}
+<p>Created by: {{creator_name}}</p>
+{%elsif creator_name and creator_link %}
+<p>Created by: <a href="{{creator_link}}">{{page.creator_name}}</a></p>
 {% endif %}
 
 <hr>
