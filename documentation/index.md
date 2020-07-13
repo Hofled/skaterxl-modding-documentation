@@ -1,5 +1,7 @@
 ---
-title: Documentation
+layout: indexer
+title: Documentation 📚
+index_type: documentation
 permalink: /documentation/
 ---
 
