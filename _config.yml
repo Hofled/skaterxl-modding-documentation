@@ -4,7 +4,6 @@ theme: jekyll-theme-slate
 repository: Hofled/skaterxl-modding-documentation
 plugins:
   - jekyll-seo-tag
-  - jekyll-last-modified-at
 defaults:
 - scope:
     path: ""

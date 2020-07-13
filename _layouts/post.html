@@ -1,7 +1,13 @@
 ---
 layout: default
 ---
+
+{% if page.last_modified_at %}
 <p>Last modified at: {{page.last_modified_at | date: "%Y-%m-%d" }}</p>
+{% else %}
+<p>Creation date: {{page.date | date: "%Y-%m-%d" }}</p>
+{% endif %}
+
 <hr>
 
 {{- content -}}
