@@ -18,5 +18,4 @@ This will allow actions to perform tests on the `dev` branch automatically befor
 In order to build and serve the website locally for development, follow the installation steps [here](https://jekyllrb.com/docs/), and then go to the cloned repository directory and run `bundle exec jekyll serve` and browse to http://localhost:4000 .
 
 ## TBD:
-- Implement automatic link creation in section's main page for newly added section pages.
 - Add some guides (transfer useful info / links from modding discord to be under the guides section)
