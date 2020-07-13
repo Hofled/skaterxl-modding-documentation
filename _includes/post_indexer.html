@@ -5,7 +5,7 @@
 
     {%- for post in category.last -%}
     <li>
-        <a href="{{post.url | relative_url}}">{{post.title}} | {{post.date | date: "%Y-%m-%d"}}</a>
+        <a href="{{post.url | absolute_url}}">{{post.title}} | {{post.date | date: "%Y-%m-%d"}}</a>
     </li>
     {% endfor %}
 
