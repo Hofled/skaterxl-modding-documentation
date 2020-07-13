@@ -8,6 +8,10 @@ layout: default
 <p>Creation date: {{page.date | date: "%Y-%m-%d" }}</p>
 {% endif %}
 
+{% if page.creator %}
+<p>Created by: @{{page.creator}}</p>
+{% endif %}
+
 <hr>
 
 {{- content -}}
