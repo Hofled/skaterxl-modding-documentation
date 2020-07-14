@@ -1,4 +1,5 @@
 ![Dev build test](https://github.com/Hofled/skaterxl-modding-documentation/workflows/Dev%20build%20test/badge.svg?branch=dev)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/17133b1e-b870-4f1d-bb7e-e2d2fedb6b0c/deploy-status)](https://app.netlify.com/sites/skaterxl-modding-documentation/deploys)
 
 # 🛠️🛹 SkaterXL Modding Documentation 
 
