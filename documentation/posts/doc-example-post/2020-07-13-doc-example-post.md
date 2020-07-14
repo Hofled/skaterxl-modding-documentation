@@ -1,9 +1,12 @@
 ---
 layout: post
 last_modified_at: 2020-07-13
+parent: Documentation
 creator_name: '@Hofled'
 title: "Documentation example post"
 ---
+
+# Documentation example post
 
 This is an example post to demonstrate how to add documentation to the project.
 
@@ -15,11 +18,12 @@ The last modified date at the top of each post will be automatically set by the 
 ---
 
 This is an example for using assets:
-![random](./assets/asd.jpg)
+
+![random](./assets/skateboard.jpg)
 
 ---
 
-Example code block:
+Example code block: (C#)
 ```c#
 class FooClass {
     public string name;
