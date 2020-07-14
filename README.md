@@ -7,7 +7,7 @@ __DISCLAIMER__: This is a community driven documentation and __not__ official do
 
 This repository holds the source for the SkaterXL Modding documentation github pages website.
 
-This website is hosted as a [github-pages](https://pages.github.com/) website, using [Jekyll](https://jekyllrb.com/) for rendering & currently styled with the [Jekyll slate](https://github.com/pages-themes/slate) theme.
+This website is hosted on [Netlify](https://www.netlify.com/) , using [Jekyll](https://jekyllrb.com/) for rendering & currently styled with the [Just The Docs](https://github.com/pmarsceill/just-the-docs) theme.
 
 ## Contributing
 

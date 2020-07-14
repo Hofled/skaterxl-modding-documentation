@@ -1,6 +1,5 @@
 title: SkaterXL Modding Documentation
 name: SkaterXL Modding Documentation
-# theme: jekyll-theme-slate
 
 # Just-the-docs theme settings
 # =================================
@@ -37,6 +36,7 @@ repository: Hofled/skaterxl-modding-documentation
 plugins:
   - jekyll-seo-tag
   - jekyll-mentions
+  - jekyll-last-modified-date
 defaults:
 - scope:
     path: ""

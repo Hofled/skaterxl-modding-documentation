@@ -2,7 +2,6 @@
 layout: default
 has_children: true
 title: Guides
-index_type: guides
 permalink: /guides/
 ---
 

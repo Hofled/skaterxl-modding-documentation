@@ -2,7 +2,6 @@
 layout: default
 has_children: true
 title: Documentation
-index_type: documentation
 permalink: /documentation/
 ---
 # Documentation

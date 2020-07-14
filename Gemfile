@@ -20,6 +20,7 @@ group :jekyll_plugins do
   gem 'jekyll-postfiles'
   gem 'jekyll-seo-tag'
   gem 'jekyll-mentions'
+  gem 'jekyll-last-modified-date'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
