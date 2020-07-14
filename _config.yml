@@ -1,10 +1,42 @@
 title: SkaterXL Modding Documentation
 name: SkaterXL Modding Documentation
-theme: jekyll-theme-slate
+
+# Just-the-docs theme settings
+# =================================
+theme: just-the-docs
+aux_links:
+  "View on Github":
+    - "//github.com/Hofled/skaterxl-modding-documentation"
+
+# Makes Aux links open in a new tab. Default is false
+aux_links_new_tab: true
+
+heading_anchors: true
+
+# appears at the bottom of every page's main content
+footer_content: "Maintained by @Hofled & the SkaterXL modding community."
+
+# Footer last edited timestamp
+last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
+last_edit_time_format: "%Y-%m-%d at %I:%M %p"
+
+# Footer "Edit this page on GitHub" link text
+gh_edit_link: true # show or hide edit this page link
+gh_edit_link_text: "Edit this page on GitHub."
+gh_edit_repository: "https://github.com/Hofled/skaterxl-modding-documentation" # the github URL for your repo
+gh_edit_branch: "dev" # the branch that your docs is served from
+gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+# =================================
+
 repository: Hofled/skaterxl-modding-documentation
 plugins:
   - jekyll-seo-tag
   - jekyll-mentions
+  - jekyll-last-modified-date
 defaults:
 - scope:
     path: ""
